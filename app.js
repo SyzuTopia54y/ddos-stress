@@ -15,5 +15,5 @@ var Stress = require('./');
 
 var StressServer = new Stress();
 
-StressServer.run('http://192.168.3.44/',10);
+StressServer.run('http://localhost/',10);
 
